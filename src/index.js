@@ -2,6 +2,7 @@
 import './sass/main.scss';
 import Swal from 'sweetalert2';
 import "./color-switcher";
+import './promises';
 
 
 const refs = {
