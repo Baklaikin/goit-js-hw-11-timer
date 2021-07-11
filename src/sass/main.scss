@@ -1,1 +1,26 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 40px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.field:not(:first-child) {
+  margin-left: 10px;
+}
